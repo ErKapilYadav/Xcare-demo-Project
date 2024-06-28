@@ -1,0 +1,379 @@
+body {
+  overflow-x: hidden;
+}
+
+.navbar {
+  margin-top: 20px;
+}
+
+.nav-item {
+  font-family: Sora, sans-serif;
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+.search {
+  position: relative;
+  margin-right: 10px;
+}
+
+#search {
+  border-radius: 50px;
+}
+
+.cart {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.btn1 {
+  background-color: #031b4e;
+  color: white;
+  border-radius: 50px;
+  padding: 10px 18px;
+  border: none;
+}
+
+@media (max-width: 992px) {
+  .navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .search,
+  .cart {
+    display: none;
+  }
+
+  .btn1 {
+    padding: 10px 14px;
+    font-size: 11px;
+  }
+}
+
+.carousel-item {
+  width: 95%;
+}
+
+.slider-img {
+  margin: 12px 30px;
+  border-radius: 50px;
+}
+
+.card1 {
+  height: 360px;
+  background-color: #007aff;
+  color: white;
+  border-radius: 30px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.card2 {
+  height: 360px;
+  background-color: #031b4e;
+  color: white;
+  border-radius: 30px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.card3 {
+  height: 360px;
+  color: white;
+  border-radius: 30px;
+  margin-top: 10px;
+  text-align: center;
+  background-image: url(./Images/card3.jpg);
+  background-size: cover;
+  background-position: center;
+  font-size: 20px;
+}
+
+.btn {
+  border-radius: 20px;
+}
+
+.fixed-image-section {
+  margin: 20px;
+  height: 80vh;
+  background-image: url("./Images/home-about-left.jpg");
+  background-size: cover;
+  background-position: inherit;
+  border-radius: 20px;
+}
+
+.scrollable-section {
+  height: 80vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 20px;
+
+}
+
+.scrollable-section img {
+  border-radius: 20px;
+}
+
+.scrollable-section::-webkit-scrollbar {
+  display: none;
+}
+
+
+marquee {
+  color: #031b4e;
+  font-weight: bolder;
+  font-size: 100px;
+  margin: 20px;
+}
+
+.custom-column1 {
+  color: whitesmoke;
+  background-image: url(./Images/card3.jpg);
+  background-size: cover;
+  background-position: inherit;
+  border-radius: 20px;
+  height: 60vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.custom-column1 button {
+  border-radius: 20px;
+  background-color: #031b4e;
+  color: white;
+  padding: 18px 35px;
+}
+
+.custom-column2 {
+  color: rgb(39, 36, 36);
+  background-color: #0693e3;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-column2 button {
+  border-radius: 20px;
+  background-color: #031b4e;
+  color: white;
+  padding: 18px 35px;
+}
+
+
+.team {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+.team img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s;
+}
+
+
+.section-7 {
+  height: 50vh;
+  padding: 20px;
+  background-color: #eaeef1;
+  border-radius: 20px;
+}
+
+.section-7-2 {
+  height: 50vh;
+  padding: 20px;
+}
+
+.footer-container {
+  background-color: #031b4e;
+  color: white;
+  margin: 18px 0;
+  padding: 20px;
+}
+
+.footer-container ul {
+  padding: 0;
+  list-style: none;
+}
+
+
+.footer-bar {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Roboto, sans-serif;
+}
+
+.footer-bar .container-fluid {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-bar h5 {
+  color: #333;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.footer-bar p {
+  color: #666;
+  font-size: 14px;
+}
+
+.footer-bar a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer-bar .social-icons a {
+  color: #007bff;
+  margin-right: 10px;
+}
+
+.footer-bar .contact-icons a {
+  color: #007bff;
+  margin-right: 10px;
+}
+
+.footer-bar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-bar ul li {
+  margin-bottom: 10px;
+}
+
+/* about us css */
+
+.full-screen-image {
+  position: relative;
+  height: 100vh;
+  background-image: url("./Images/about-us-main.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.overlay-text { 
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+
+
+.about-team {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+
+}
+
+.about-team img:hover {
+  box-shadow: 2px 2px 6px black;
+  transform: scale(1.1);
+  transition: transform 0.3s;
+}
+
+
+.left-column1 {
+  height: 500px;
+  margin: 18px 0;
+  border-radius: 20px;
+  background-image: url("./Images/about-section-6.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* contact us */
+
+.full-screen-image-aus {
+  position: relative;
+  height: 100vh;
+  background-image: url("./Images/contact-us.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #031b4e;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.overlay-text-aus {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+
+.card1aus {
+  height: 350px;
+  background-color: antiquewhite;
+  color: black;
+  border-radius: 30px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.card2aus {
+  height: 350px;
+  background-color: antiquewhite;
+  color: black;
+  border-radius: 30px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.card3aus {
+  background-color: antiquewhite;
+  height: 350px;
+  color: black;
+  border-radius: 30px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.left-column {
+  height: 590px;
+  margin: 18px 0;
+  border-radius: 20px;
+  background-image: url("./Images/contact-us-mid.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.right-column {
+  padding: 2rem;
+}
